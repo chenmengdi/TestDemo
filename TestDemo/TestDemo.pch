@@ -1,0 +1,20 @@
+//
+//  TestDemo.pch
+//  TestDemo
+//
+//  Created by 陈孟迪 on 2017/10/12.
+//  Copyright © 2017年 陈孟迪. All rights reserved.
+//
+
+//#ifndef TestDemo_pch
+#define TestDemo_pch
+#define kScreenBounds [UIScreen mainScreen].bounds
+#define kScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
+#define kScreenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "UIViewExt.h"
+
+
+#endif /* TestDemo_pch */

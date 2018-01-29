@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		5F3AF7061F8F34A400F8BECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AF7051F8F34A400F8BECD /* main.m */; };
 		5F3AF7091F8F34A400F8BECD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AF7081F8F34A400F8BECD /* AppDelegate.m */; };
-		5F3AF70C1F8F34A400F8BECD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AF70B1F8F34A400F8BECD /* ViewController.m */; };
 		5F3AF70F1F8F34A400F8BECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3AF70D1F8F34A400F8BECD /* Main.storyboard */; };
 		5F3AF7111F8F34A400F8BECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3AF7101F8F34A400F8BECD /* Assets.xcassets */; };
 		5F3AF7141F8F34A400F8BECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3AF7121F8F34A400F8BECD /* LaunchScreen.storyboard */; };
 		5F3AF71F1F8F34A400F8BECD /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AF71E1F8F34A400F8BECD /* TestDemoTests.m */; };
 		5F3AF72A1F8F34A400F8BECD /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AF7291F8F34A400F8BECD /* TestDemoUITests.m */; };
+		5F3AF7451F8F366D00F8BECD /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AF73F1F8F366D00F8BECD /* UIViewExt.m */; };
+		5F452CEF1F95F2BF00600A48 /* MainViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 5F452CEE1F95F08A00600A48 /* MainViewController.h */; };
+		5F452CF01F95F2C400600A48 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F452CED1F95F08A00600A48 /* MainViewController.m */; };
+		5F5DB66C1F94786B00DDFE37 /* echarts.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 5F5DB66A1F94675C00DDFE37 /* echarts.min.js */; };
+		5F5DB6701F947DAE00DDFE37 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5F5DB66D1F94795B00DDFE37 /* index.html */; };
+		5FADD2461F905CAA001E150D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FADD2451F905CAA001E150D /* JavaScriptCore.framework */; };
+		5FD3AAF91F98A2250071B311 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD3AAF81F98A2240071B311 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		5F3AF7051F8F34A400F8BECD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5F3AF7071F8F34A400F8BECD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5F3AF7081F8F34A400F8BECD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5F3AF70A1F8F34A400F8BECD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5F3AF70B1F8F34A400F8BECD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5F3AF70E1F8F34A400F8BECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F3AF7101F8F34A400F8BECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F3AF7131F8F34A400F8BECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 		5F3AF7251F8F34A400F8BECD /* TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AF7291F8F34A400F8BECD /* TestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoUITests.m; sourceTree = "<group>"; };
 		5F3AF72B1F8F34A400F8BECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3AF73A1F8F354A00F8BECD /* TestDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDemo.pch; sourceTree = "<group>"; };
+		5F3AF73E1F8F366D00F8BECD /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		5F3AF73F1F8F366D00F8BECD /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		5F452CED1F95F08A00600A48 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5F452CEE1F95F08A00600A48 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5F5DB66A1F94675C00DDFE37 /* echarts.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = echarts.min.js; sourceTree = "<group>"; };
+		5F5DB66D1F94795B00DDFE37 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		5FADD2451F905CAA001E150D /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5FD3AAF81F98A2240071B311 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD3AAF91F98A2250071B311 /* CoreBluetooth.framework in Frameworks */,
+				5FADD2461F905CAA001E150D /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,7 @@
 				5F3AF71D1F8F34A400F8BECD /* TestDemoTests */,
 				5F3AF7281F8F34A400F8BECD /* TestDemoUITests */,
 				5F3AF7021F8F34A400F8BECD /* Products */,
+				5FADD2441F905CAA001E150D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +117,12 @@
 		5F3AF7031F8F34A400F8BECD /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5F5DB6651F94675C00DDFE37 /* www */,
+				5F3AF73B1F8F35D800F8BECD /* Tool */,
+				5F3AF7581F8F41FF00F8BECD /* Main */,
 				5F3AF7071F8F34A400F8BECD /* AppDelegate.h */,
 				5F3AF7081F8F34A400F8BECD /* AppDelegate.m */,
-				5F3AF70A1F8F34A400F8BECD /* ViewController.h */,
-				5F3AF70B1F8F34A400F8BECD /* ViewController.m */,
+				5F3AF73A1F8F354A00F8BECD /* TestDemo.pch */,
 				5F3AF70D1F8F34A400F8BECD /* Main.storyboard */,
 				5F3AF7101F8F34A400F8BECD /* Assets.xcassets */,
 				5F3AF7121F8F34A400F8BECD /* LaunchScreen.storyboard */,
@@ -138,6 +156,50 @@
 				5F3AF72B1F8F34A400F8BECD /* Info.plist */,
 			);
 			path = TestDemoUITests;
+			sourceTree = "<group>";
+		};
+		5F3AF73B1F8F35D800F8BECD /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5F3AF73E1F8F366D00F8BECD /* UIViewExt.h */,
+				5F3AF73F1F8F366D00F8BECD /* UIViewExt.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		5F3AF7581F8F41FF00F8BECD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5F3AF7591F8F41FF00F8BECD /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5F3AF7591F8F41FF00F8BECD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F452CEE1F95F08A00600A48 /* MainViewController.h */,
+				5F452CED1F95F08A00600A48 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F5DB6651F94675C00DDFE37 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				5F5DB66D1F94795B00DDFE37 /* index.html */,
+				5F5DB66A1F94675C00DDFE37 /* echarts.min.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		5FADD2441F905CAA001E150D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FD3AAF81F98A2240071B311 /* CoreBluetooth.framework */,
+				5FADD2451F905CAA001E150D /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +269,7 @@
 				TargetAttributes = {
 					5F3AF7001F8F34A400F8BECD = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 99BHKCM7DV;
 						ProvisioningStyle = Automatic;
 					};
 					5F3AF7191F8F34A400F8BECD = {
@@ -246,7 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5DB6701F947DAE00DDFE37 /* index.html in Resources */,
 				5F3AF7141F8F34A400F8BECD /* LaunchScreen.storyboard in Resources */,
+				5F5DB66C1F94786B00DDFE37 /* echarts.min.js in Resources */,
 				5F3AF7111F8F34A400F8BECD /* Assets.xcassets in Resources */,
 				5F3AF70F1F8F34A400F8BECD /* Main.storyboard in Resources */,
 			);
@@ -273,8 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F3AF70C1F8F34A400F8BECD /* ViewController.m in Sources */,
+				5F452CF01F95F2C400600A48 /* MainViewController.m in Sources */,
+				5F452CEF1F95F2BF00600A48 /* MainViewController.h in Sources */,
 				5F3AF7091F8F34A400F8BECD /* AppDelegate.m in Sources */,
+				5F3AF7451F8F366D00F8BECD /* UIViewExt.m in Sources */,
 				5F3AF7061F8F34A400F8BECD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,10 +493,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99BHKCM7DV;
+				GCC_PREFIX_HEADER = TestDemo/TestDemo.pch;
 				INFOPLIST_FILE = TestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -437,10 +508,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 99BHKCM7DV;
+				GCC_PREFIX_HEADER = TestDemo/TestDemo.pch;
 				INFOPLIST_FILE = TestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -509,6 +584,7 @@
 				5F3AF7301F8F34A400F8BECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F3AF7311F8F34A400F8BECD /* Build configuration list for PBXNativeTarget "TestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +593,7 @@
 				5F3AF7331F8F34A400F8BECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F3AF7341F8F34A400F8BECD /* Build configuration list for PBXNativeTarget "TestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +602,7 @@
 				5F3AF7361F8F34A400F8BECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
